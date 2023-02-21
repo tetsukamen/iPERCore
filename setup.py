@@ -41,7 +41,7 @@ PRECOMPILED_TORCH_CUDA_PAIRS = {
     "1.12.1+cu116":{
         "torch": "1.12.1+cu116",
         "torchvision": "0.13.1+cu116",
-        "mmcv-full": "1.7.1",
+        "mmcv-full": "1.3.16",
         "mmcv-dist": f"{MMCV_DIST}/cu116/torch1.13.1/index.html"
     },
     "1.8.1+cu111": {
