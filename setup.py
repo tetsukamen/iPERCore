@@ -24,7 +24,7 @@ PIP_VERSION = "22.0.4"
 VALID_CUDA = [10.1, 10.2, 11.0, 11.1, 11.6]
 
 DEFAULT_LINUX_CUDA_TORCH = {
-    "cu116": "1.12.1",
+    "cu116": "1.6.0",
     "cu111": "1.8.1",
     "cu110": "1.7.0",
     "cu102": "1.7.0",
@@ -38,11 +38,11 @@ DEFAULT_WINDOWS_CUDA_TORCH = {
 
 
 PRECOMPILED_TORCH_CUDA_PAIRS = {
-    "1.12.1+cu116":{
-        "torch": "1.12.1+cu116",
-        "torchvision": "0.13.1+cu116",
+    "1.6.0+cu116":{
+        "torch": "1.6.0+cu116",
+        "torchvision": "0.7.0+cu116",
         "mmcv-full": "1.3.16",
-        "mmcv-dist": f"{MMCV_DIST}/cu116/torch1.13.1/index.html"
+        "mmcv-dist": f"{MMCV_DIST}/cu116/torch1.6.0/index.html"
     },
     "1.8.1+cu111": {
         "torch": "1.8.1+cu111",
